@@ -16,6 +16,7 @@ public class DateTimeFormatUtil {
 	}
 	
 	public static Date dateFromString(String dateAsString) {
+		
 		Date date = null;
 		try {
 			DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
